@@ -88,7 +88,7 @@ const Herosection = () => {
                         alt="ayroui"
                       />
                     </div>
-                    <div class="mr-4 w-full py-3">
+                    {/* <div class="mr-4 w-full py-3">
                       <img
                         src="https://www.datagroup.in/wp-content/uploads/2015/11/data-group111.png"
                         alt="ayroui"
@@ -99,7 +99,7 @@ const Herosection = () => {
                         src="https://www.datagroup.in/wp-content/uploads/2015/11/data-group111.png"
                         alt="ayroui"
                       />
-                    </div>
+                    </div> */}
 
                   </div>
                 </motion.div>
