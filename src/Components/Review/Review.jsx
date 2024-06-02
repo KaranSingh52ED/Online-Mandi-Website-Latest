@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { MdVerified } from "react-icons/md";
 import { useAnimation, useInView, motion } from "framer-motion";
-
+import farmerImg from "../../images/farmr-mob.jpg";
 const Review = () => {
   const { innerWidth: Width } = window;
   const ref = useRef();
@@ -37,13 +37,13 @@ const Review = () => {
                         </p>
                         <div className="flex items-center mt-4 space-x-4">
                           <img
-                            src="https://source.unsplash.com/50x50/?portrait?1"
+                            src={farmerImg}
                             alt=""
                             className="w-12 h-12 bg-center bg-cover rounded-full "
                           />
                           <div>
                             <p className="text-md font-semibold">Sanjay Thekedar</p>
-                            <p className="text-sm text-gray-400">Logitech</p>
+                            {/* <p className="text-sm text-gray-400">Logitech</p> */}
                           </div>
                           <div className="flex">
                             <MdVerified
@@ -59,7 +59,7 @@ const Review = () => {
                         </p>
                         <div className="flex items-center mt-4 space-x-4">
                           <img
-                            src="https://source.unsplash.com/50x50/?portrait?2"
+                            src={farmerImg}
                             alt=""
                             className="w-12 h-12 bg-center bg-cover rounded-full "
                           />
@@ -87,7 +87,7 @@ const Review = () => {
                         </p>
                         <div className="flex items-center mt-4 space-x-4">
                           <img
-                            src="https://source.unsplash.com/50x50/?portrait?3"
+                            src={farmerImg}
                             alt=""
                             className="w-12 h-12 bg-center bg-cover rounded-full "
                           />
@@ -95,7 +95,7 @@ const Review = () => {
                             <p className="text-md font-semibold">
                               Monika Rajput
                             </p>
-                            <p className="text-sm dark:text-gray-400">Dell</p>
+                            {/* <p className="text-sm dark:text-gray-400">Dell</p> */}
                           </div>
                           <div className="flex">
                             <MdVerified
@@ -111,7 +111,7 @@ const Review = () => {
                         </p>
                         <div className="flex items-center mt-4 space-x-4">
                           <img
-                            src="https://source.unsplash.com/50x50/?portrait?4"
+                            src={farmerImg}
                             alt=""
                             className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
                           />
@@ -119,7 +119,7 @@ const Review = () => {
                             <p className="text-md font-semibold">
                               Rahul Kumar Sharma
                             </p>
-                            <p className="text-sm dark:text-gray-400">Razer</p>
+                            {/* <p className="text-sm dark:text-gray-400">Razer</p> */}
                           </div>
                           <div className="flex">
                             <MdVerified
@@ -178,7 +178,7 @@ const Review = () => {
                         <div className="flex justify-between items-center mt-4 space-x-4">
                           <div className="flex">
                             <img
-                              src="https://source.unsplash.com/50x50/?portrait?1"
+                              src={farmerImg}
                               alt=""
                               className="w-12 h-12 bg-center bg-cover rounded-full "
                             />
@@ -186,9 +186,9 @@ const Review = () => {
                               <p className="text-lg font-semibold block">
                                 Sanjay Thekedar
                               </p>
-                              <p className="text-sm text-gray-400 block">
+                              {/* <p className="text-sm text-gray-400 block">
                                 Asus
-                              </p>
+                              </p> */}
                             </div>
                           </div>
 
@@ -217,7 +217,7 @@ const Review = () => {
                         <div className="flex items-center justify-between mt-4 space-x-4">
                           <div className="flex">
                             <img
-                              src="https://source.unsplash.com/50x50/?portrait?1"
+                              src={farmerImg}
                               alt=""
                               className="w-12 h-12 bg-center bg-cover rounded-full "
                             />
@@ -225,9 +225,9 @@ const Review = () => {
                               <p className="text-lg font-semibold block">
                                 Deviram Bhatiya
                               </p>
-                              <p className="text-sm text-gray-400 block">
+                              {/* <p className="text-sm text-gray-400 block">
                                 Razer
-                              </p>
+                              </p> */}
                             </div>
                           </div>
                           <div className="flex">
@@ -257,7 +257,7 @@ const Review = () => {
                         <div className="flex justify-between items-center mt-4 space-x-4">
                           <div className="flex">
                             <img
-                              src="https://source.unsplash.com/50x50/?portrait?1"
+                              src={farmerImg}
                               alt=""
                               className="w-12 h-12 bg-center bg-cover rounded-full "
                             />
@@ -265,9 +265,9 @@ const Review = () => {
                               <p className="text-lg font-semibold block">
                                 Rahul Kumar Sharma
                               </p>
-                              <p className="text-sm text-gray-400 block">
+                              {/* <p className="text-sm text-gray-400 block">
                                 Microsoft
-                              </p>
+                              </p> */}
                             </div>
                           </div>
                           <div className="flex">
@@ -295,7 +295,7 @@ const Review = () => {
                         <div className="flex justify-between items-center mt-4 space-x-4">
                           <div className="flex">
                             <img
-                              src="https://source.unsplash.com/50x50/?portrait?1"
+                              src={farmerImg}
                               alt=""
                               className="w-12 h-12 bg-center bg-cover rounded-full "
                             />
@@ -303,9 +303,9 @@ const Review = () => {
                               <p className="text-lg font-semibold block">
                                 Dharmpal Singh
                               </p>
-                              <p className="text-sm text-gray-400 block">
+                              {/* <p className="text-sm text-gray-400 block">
                                 Dell
-                              </p>
+                              </p> */}
                             </div>
                           </div>
                           <div className="flex">
